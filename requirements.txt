@@ -1,0 +1,4 @@
+numpy==2.3.3
+pandas==2.3.2
+scipy==1.16.1
+mne @ git+https://github.com/devparikh0506/mne-python.git@fc98279b3b3ee9c76b3820d40e16d4c1b9dba570
