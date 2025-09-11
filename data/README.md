@@ -10,8 +10,8 @@ Specifically, it includes the **BCI Competition IV Dataset 2b** in `.gdf` format
 - **Format:** `.gdf` (General Data Format for biomedical signals)  
 - **Subjects:** 9 right-handed subjects  
 - **Sessions per subject:** 5  
-  - First 2 sessions → Training data (no feedback)  
-  - Last 3 sessions → Feedback sessions  
+  - First 3 sessions → Training data (no feedback)  
+  - Last 2 sessions → Feedback sessions  
 - **Trials:** Motor imagery of the **left hand** and **right hand** guided by visual cues  
 
 ---
