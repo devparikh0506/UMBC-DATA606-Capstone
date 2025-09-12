@@ -112,8 +112,8 @@ Each **row (trial)** represents a **single motor imagery attempt** by a subject:
 
 ### 🎯 Target Variable  
 - **`Label`** → Binary classification task  
-  - `1` = Left-hand motor imagery  
-  - `2` = Right-hand motor imagery  
+  - `left` = Left-hand motor imagery  
+  - `right` = Right-hand motor imagery  
 
 ---
 
