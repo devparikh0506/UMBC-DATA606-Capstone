@@ -7,12 +7,8 @@ The notebooks serve as an interactive workspace for data exploration, preprocess
 
 ## 📂 Contents
 - [**preliminary_data_analysis.ipynb**](./preliminary_data_analysis.ipynb)
-  
-  Initial Data Analysis of the BCI Competition IV 2b dataset, including:
-  - Loading and inspecting EEG signals
-  - Visualizing raw signals
-  - Extracting event markers and labels
-  - Baseline statistics and trial distributions
+  - **Purpose:** Initial exploration of the BCI Competition IV 2b dataset.
+  - **Key Steps:** Loading GDF files, inspecting signal properties, visualizing raw EEG waveforms, extracting event markers, and analyzing trial distributions per subject.
 
 <!-- - **Additional Notebooks (to be added)**  
   - Feature extraction & signal processing (e.g., CSP, bandpass filtering, ERD/ERS analysis)  
