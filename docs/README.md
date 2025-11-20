@@ -9,6 +9,9 @@ These files provide project context, research framing, and professional material
 - [**proposal.md**](./proposal.md)  
   Project proposal describing motivation, dataset, objectives, and planned methodology.  
 
+- [**training.md**](./training.md)  
+  Documentation of model training strategies, configurations, and hyperparameters for EEGNet models.
+
 - [**Resume.md**](./Resume.md)  
   Professional resume.  
 

@@ -1,0 +1,53 @@
+.smiley-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  min-height: 300px;
+}
+
+.smiley-face {
+  transition: transform 0.5s ease-in-out;
+  margin-bottom: 2rem;
+}
+
+.smiley-emoji {
+  font-size: 5rem;
+  display: block;
+}
+
+.smiley-track {
+  position: relative;
+  width: 300px;
+  height: 4px;
+  background: #e0e0e0;
+  border-radius: 2px;
+}
+
+.track-line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2px;
+  height: 20px;
+  background: #999;
+}
+
+.track-label {
+  position: absolute;
+  top: 20px;
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: 600;
+}
+
+.track-label.left {
+  left: 0;
+}
+
+.track-label.right {
+  right: 0;
+}
+

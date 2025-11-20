@@ -1,0 +1,24 @@
+{
+  "name": "brain2action-presentation",
+  "version": "1.0.0",
+  "description": "Slidev presentation for Brain2Action BCI Motor Imagery Classification",
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "keywords": [
+    "slidev",
+    "presentation",
+    "bci",
+    "eeg",
+    "motor-imagery"
+  ],
+  "author": "Dev Parikh",
+  "license": "MIT",
+  "devDependencies": {
+    "@slidev/cli": "^0.47.0",
+    "@slidev/theme-default": "^0.24.0",
+    "playwright-chromium": "^1.56.1"
+  }
+}

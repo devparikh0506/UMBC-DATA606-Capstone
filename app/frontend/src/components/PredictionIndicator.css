@@ -1,0 +1,45 @@
+.prediction-indicator {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  min-width: 300px;
+}
+
+.prediction-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.prediction-row:last-child {
+  margin-bottom: 0;
+}
+
+.prediction-row .label {
+  font-weight: 600;
+  color: #666;
+}
+
+.prediction-row .value {
+  font-weight: 700;
+  color: #333;
+}
+
+.prediction-left {
+  color: #667eea;
+}
+
+.prediction-right {
+  color: #764ba2;
+}
+
+.status.correct {
+  color: #10b981;
+}
+
+.status.incorrect {
+  color: #ef4444;
+}
+

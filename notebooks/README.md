@@ -19,10 +19,22 @@ The notebooks serve as an interactive workspace for data exploration, preprocess
     - **Time-Frequency Analysis:** Investigated Event-Related Desynchronization (ERD) in the alpha and beta bands to observe power changes over the motor cortex.
     - **Model Input Visualization:** Plotted single-trial EEG data to understand the input structure for machine learning models.
 
-- **Future Work:**
-  - Feature extraction and engineering (e.g., Common Spatial Patterns).
-  - Development and training of classification models (e.g., EEGNet, traditional ML).
-  - Model evaluation and performance analysis.
+- [**training.ipynb**](./training.ipynb)
+  - **Purpose:** Train and compare EEGNet models using subject-dependent and subject-independent strategies.
+  - **Key Steps:**
+    - **Subject-Dependent Training:** Train separate models per subject using 3-fold cross-validation.
+    - **Subject-Independent Training:** Leave-One-Subject-Out (LOSO) cross-validation for generalization assessment.
+    - **Model Comparison:** Statistical analysis and visualization of performance differences between strategies.
+    - **Model Storage:** Best models saved to `app/resources/models/{subject_id}/best_model.pth`.
+
+- [**evaluation.ipynb**](./evaluation.ipynb)
+  - **Purpose:** Evaluate trained EEGNet models on evaluation runs (04E, 05E) for all subjects.
+  - **Key Steps:**
+    - Load trained models for each subject.
+    - Evaluate on evaluation runs (04E, 05E) using the same preprocessing as training.
+    - Calculate accuracy metrics, confusion matrices, and classification reports.
+    - Generate visualizations: accuracy bar charts, confusion matrices, run comparisons, and statistical summaries.
+    - Save results to CSV for further analysis.
 
 ---
 
