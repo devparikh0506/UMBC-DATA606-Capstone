@@ -11,7 +11,7 @@
 
 - **YouTube Video**: [Brain2Action: Turning Brain Signals into Actions](https://www.youtube.com/watch?v=-q0o-iK1lVw)
 - **Presentation Slides**: [Brain2Action_Turning_Brain_Signals_into_Actions.pptx](./Brain2Action_Turning_Brain_Signals_into_Actions.pptx)
-- **GitHub Repository**: [https://github.com/wcj365/UMBC-Data-Science-Capstone](https://github.com/wcj365/UMBC-Data-Science-Capstone)
+- **GitHub Repository**: [https://github.com/devparikh0506/UMBC-DATA606-Capstone](https://github.com/devparikh0506/UMBC-DATA606-Capstone)
 
 ---
 
